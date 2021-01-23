@@ -1,13 +1,7 @@
-use_frameworks!
 
 platform :ios, '9.0'
 
 target 'TYFoundationKit_Example' do
   pod 'TYFoundationKit', :path => '../'
 
-  target 'TYFoundationKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

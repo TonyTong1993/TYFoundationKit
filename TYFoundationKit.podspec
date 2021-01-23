@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TYFoundationKit/TYFoundationKit.h'
   
-  s.subspec 'Categories' do |sp|
-    sp.source_files = 'TYFoundationKit/Categories'
+  s.subspec 'Categories' do |ss|
+    ss.source_files = 'TYFoundationKit/Categories/*.{h,m}'
   end
   
   # s.resource_bundles = {

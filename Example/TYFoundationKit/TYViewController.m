@@ -7,7 +7,7 @@
 //
 
 #import "TYViewController.h"
-#import <TYFoundationKit/TYCategories.h>
+#import <TYFoundationKit/TYFondationKit.h>
 @interface TYViewController ()
 
 @end
@@ -18,7 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-
+    NSArray *items;
+    [items map];
 }
 
 - (void)didReceiveMemoryWarning

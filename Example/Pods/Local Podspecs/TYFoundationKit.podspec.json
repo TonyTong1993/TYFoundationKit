@@ -22,7 +22,7 @@
   "subspecs": [
     {
       "name": "Categories",
-      "source_files": "TYFoundationKit/Categories"
+      "source_files": "TYFoundationKit/Categories/*.{h,m}"
     }
   ]
 }
