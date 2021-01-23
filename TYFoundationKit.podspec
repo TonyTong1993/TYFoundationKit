@@ -35,7 +35,6 @@ TODO: Add long description of the pod here.
   s.source_files = 'TYFoundationKit/TYFoundationKit.h'
   
   s.subspec 'Categories' do |ss|
-    ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     ss.source_files = 'TYFoundationKit/Categories/*.{h,m}'
   end
   
