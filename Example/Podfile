@@ -2,6 +2,6 @@
 platform :ios, '9.0'
 
 target 'TYFoundationKit_Example' do
-  pod 'TYFoundationKit', :path => '../'
+  pod 'TYFoundationKit', :path => '../0.1.0'
 
 end

@@ -1,18 +1,16 @@
 PODS:
-  - TYFoundationKit (0.1.1):
-    - TYFoundationKit/Categories (= 0.1.1)
-  - TYFoundationKit/Categories (0.1.1)
+  - TYFoundationKit (0.1.0)
 
 DEPENDENCIES:
-  - TYFoundationKit (from `../`)
+  - TYFoundationKit (from `../0.1.0`)
 
 EXTERNAL SOURCES:
   TYFoundationKit:
-    :path: "../"
+    :path: "../0.1.0"
 
 SPEC CHECKSUMS:
-  TYFoundationKit: e157011f7b731140c51c50c1cc2c95309d8fbba1
+  TYFoundationKit: 0ed0708e4e1d1c3687a1a4f66143c003ceec607b
 
-PODFILE CHECKSUM: a161c0f63547c9a397031b0fb6a1c92f875b5dfe
+PODFILE CHECKSUM: db4f6903d264a5a0f4ca8836214da530f79785d4
 
 COCOAPODS: 1.10.1

@@ -37,13 +37,10 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Categories' do |ss|
     ss.source_files = 'TYFoundationKit/Categories/*.{h,m}'
+    ss.public_header_files = 'TYFoundationKit/Categories/*.h'
+     
   end
-  
-  # s.resource_bundles = {
-  #   'TYFoundationKit' => ['TYFoundationKit/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+
 end
