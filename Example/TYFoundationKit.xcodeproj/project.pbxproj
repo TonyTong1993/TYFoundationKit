@@ -460,6 +460,7 @@
 			baseConfigurationReference = 96954D15DC5177043FB1314B /* Pods-TYFoundationKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXCLUDED_ARCHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYFoundationKit/TYFoundationKit-Prefix.pch";
 				INFOPLIST_FILE = "TYFoundationKit/TYFoundationKit-Info.plist";
