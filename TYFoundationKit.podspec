@@ -41,6 +41,8 @@ TODO: Add long description of the pod here.
      
   end
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'TYFoundationKit/**/*.h'
+  s.public_header_files = 'TYFoundationKit/TYFoundationKit.h','TYFoundationKit/**/*.h'
+  
 
 end
