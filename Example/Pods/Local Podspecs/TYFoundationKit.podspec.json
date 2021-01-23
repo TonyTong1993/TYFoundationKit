@@ -1,0 +1,28 @@
+{
+  "name": "TYFoundationKit",
+  "version": "0.1.1",
+  "summary": "TYFoundationKit 是对NSFoundation的扩展.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TonyTong1993/TYFoundationKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TonyTong1993": "tongwanhua@mucang.cn"
+  },
+  "source": {
+    "git": "https://github.com/TonyTong1993/TYFoundationKit.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TYFoundationKit/TYFoundationKit.h",
+  "subspecs": [
+    {
+      "name": "Categories",
+      "source_files": "TYFoundationKit/Categories"
+    }
+  ]
+}

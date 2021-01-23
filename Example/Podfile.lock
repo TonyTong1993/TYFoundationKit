@@ -1,0 +1,18 @@
+PODS:
+  - TYFoundationKit (0.1.1):
+    - TYFoundationKit/Categories (= 0.1.1)
+  - TYFoundationKit/Categories (0.1.1)
+
+DEPENDENCIES:
+  - TYFoundationKit (from `../`)
+
+EXTERNAL SOURCES:
+  TYFoundationKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TYFoundationKit: 7118e3b1519d3d101b69ede784139cad62199b4a
+
+PODFILE CHECKSUM: 7d88b73800baced3a3d783aaffb1acd86b93b893
+
+COCOAPODS: 1.10.1

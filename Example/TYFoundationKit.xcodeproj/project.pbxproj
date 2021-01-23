@@ -58,14 +58,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6BBC4719E2C1BDC937EBDA9A /* Pods-TYFoundationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYFoundationKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYFoundationKit_Tests/Pods-TYFoundationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		70CB6FB7A4B858B7EE0FB759 /* TYFoundationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYFoundationKit.podspec; path = ../TYFoundationKit.podspec; sourceTree = "<group>"; };
+		70CB6FB7A4B858B7EE0FB759 /* TYFoundationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYFoundationKit.podspec; path = ../TYFoundationKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748C6649EE29E03CD4A4F7F3 /* Pods-TYFoundationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYFoundationKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYFoundationKit_Tests/Pods-TYFoundationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96954D15DC5177043FB1314B /* Pods-TYFoundationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYFoundationKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TYFoundationKit_Example/Pods-TYFoundationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BC91C33F69BA620A41E9A4E9 /* Pods_TYFoundationKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYFoundationKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF41A3AAC53F0827BEC8FBB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C56EA1FE76D24CFB8EBDDF71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BF41A3AAC53F0827BEC8FBB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C56EA1FE76D24CFB8EBDDF71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F431BE23E8E7324CA525D698 /* Pods-TYFoundationKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYFoundationKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYFoundationKit_Example/Pods-TYFoundationKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				748C6649EE29E03CD4A4F7F3 /* Pods-TYFoundationKit_Tests.debug.xcconfig */,
 				6BBC4719E2C1BDC937EBDA9A /* Pods-TYFoundationKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				70966934D20C55BC19A0B227 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70966934D20C55BC19A0B227 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TYFoundationKit_Example/Pods-TYFoundationKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TYFoundationKit/TYFoundationKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYFoundationKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYFoundationKit_Example/Pods-TYFoundationKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C40EBB7280A94668DA92ED4A /* [CP] Check Pods Manifest.lock */ = {

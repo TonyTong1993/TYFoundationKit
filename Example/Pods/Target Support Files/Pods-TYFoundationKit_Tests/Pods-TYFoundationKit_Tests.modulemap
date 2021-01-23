@@ -1,0 +1,6 @@
+framework module Pods_TYFoundationKit_Tests {
+  umbrella header "Pods-TYFoundationKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TYFoundationKit {
+  umbrella header "TYFoundationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
